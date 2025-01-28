@@ -1,0 +1,124 @@
+{
+  "personalInfo": {
+    "name": "Yash Gupta",
+    "title": "Software Engineer 3",
+    "email": "yashgupta50357@gmail.com",
+    "phone": "+91 8299500662",
+    "location": "Kanpur, India",
+    "github": "https://github.com/Yashg5080",
+    "linkedin": "https://www.linkedin.com/in/yash-gupta-1b8b5116b",
+    "website": "https://yashg5080.github.io/Yash-Gupta",
+    "summary": "Software Engineer with extensive experience in building scalable and high-performance web applications. Skilled in Node.js, React.js, and GraphQL, with a strong foundation in backend and frontend development. Passionate about leveraging AI and modern technologies to deliver innovative solutions."
+  },
+  "experience": [
+    {
+      "company": "ThoughtSpot",
+      "position": "Software Engineer 3",
+      "startDate": "Aug 2022",
+      "endDate": "Present",
+      "description": "Migrated REST APIs to GraphQL, enhancing performance and security. Transitioned Angular-based platforms to React, achieving a 20% improvement in performance. Developed an SQL Server connector to streamline data integration. Supervised a team of three engineers to deliver high-quality solutions. Enhanced the CSV upload feature for better user experience and resolved critical customer-facing bugs. Designed scalable microservices using Node.js and optimized API structures for high performance.",
+      "companyUrl": "https://www.thoughtspot.com"
+    },
+    {
+      "company": "WebStudent Designers",
+      "position": "Web Developer Intern",
+      "startDate": "Jun 2021",
+      "endDate": "Oct 2021",
+      "description": "Designed and developed responsive website layouts to improve user experience. Delivered projects ahead of schedule while maintaining high quality. Recognized as Best Team of the Month for exceptional collaboration and performance. Developed modern website designs and implemented client updates seamlessly.",
+      "location": "Remote"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Dr. Ambedkar Institute of Technology, Kanpur",
+      "degree": "B.Tech in Information Technology",
+      "startDate": "2018",
+      "endDate": "2022",
+      "description": "Graduated with a CGPA of 8.42, specializing in software engineering, algorithms, and database management."
+    },
+    {
+      "institution": "Mother Teresa Mission Higher Secondary School",
+      "degree": "Higher Secondary School Certificate",
+      "startDate": "2017",
+      "endDate": "2017",
+      "description": "Achieved 86.67% in Math and Science, building a strong foundation in problem-solving and analytical thinking."
+    }
+  ],
+  "skills": [
+    "Node.js",
+    "React.js",
+    "GraphQL",
+    "JavaScript",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "RESTful APIs",
+    "SQL",
+    "MySQL",
+    "Python",
+    "Django",
+    "Flask",
+    "Git",
+    "Jest",
+    "React Testing Library",
+    "Playwright",
+    "CI/CD",
+    "Agile Methodologies"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Native"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Flappy Bird Game",
+      "description": "A recreation of the classic Flappy Bird game using Python and Pygame. Features include player movement, obstacle creation, collision detection, and a scoring mechanism for engaging gameplay.",
+      "technologies": ["Python", "Pygame"],
+      "link": "https://github.com/Yashg5080/Flappy-Bird-Game"
+    },
+    {
+      "name": "Personal Portfolio",
+      "description": "A responsive personal portfolio website showcasing skills, projects, and professional experience. Implemented modern design techniques and optimized for seamless navigation.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://yashg5080.github.io/Yash-Gupta"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Namaste Node.js",
+      "date": "2023",
+      "description": "Mastered asynchronous programming, event loop, and building scalable Node.js applications.",
+      "issuer": "Akshay Saini"
+    },
+    {
+      "name": "Namaste React",
+      "date": "2023",
+      "description": "Acquired in-depth knowledge of React concepts, including hooks, lifecycle methods, and virtual DOM.",
+      "issuer": "Akshay Saini"
+    },
+    {
+      "name": "Namaste Frontend System Design",
+      "date": "2023",
+      "description": "Learned to design scalable, efficient, and user-friendly frontend architectures.",
+      "issuer": "Akshay Saini"
+    }
+  ],
+  "interests": [
+    "AI and Machine Learning",
+    "System Design",
+    "Problem Solving",
+    "Software Optimization"
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Team Leadership",
+    "Time Management",
+    "Communication"
+  ]
+}
