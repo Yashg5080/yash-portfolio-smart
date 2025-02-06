@@ -48,13 +48,14 @@ interface Project {
 const Header: React.FC<{ personalInfo: PersonalInfo }> = ({ personalInfo }) => (
   <header className="mb-2 flex flex-col md:flex-row items-center p-6 border-b-2 border-gray-200 dark:border-gray-700">
     <div className="md:mr-8 mb-4 md:mb-0">
-      <Image
-        src={heroImage || "/default-profile.jpg"}
-        alt={personalInfo.name}
-        width={200}
-        height={200}
-        className="rounded-full border-4 border-gray-300 dark:border-gray-600"
-      />
+      <div className="w-40 h-40 relative">
+        <Image
+          src={heroImage || "/default-profile.jpg"}
+          alt={personalInfo.name}
+          layout="fill"
+          className="rounded-full border-4 border-gray-300 dark:border-gray-600 object-cover"
+        />
+      </div>
     </div>
     <div className="text-center md:text-left">
       <h1 className="text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">{personalInfo.name}</h1>
@@ -65,16 +66,21 @@ const Header: React.FC<{ personalInfo: PersonalInfo }> = ({ personalInfo }) => (
           {personalInfo.email}
         </a>
         <a href={personalInfo.linkedin} className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5Zm-11 19h-3v-10h3v10Zm-1.5-11.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75Zm13.5 11.28h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.28c.58-.94 1.64-1.28 2.5-1.28 2.21 0 4 1.79 4 4v6Z"/>
+        </svg>
           {personalInfo.linkedin}
         </a>
         <a href={personalInfo.github} className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+          <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.166 6.84 9.49.5.09.68-.216.68-.48 0-.237-.01-.865-.014-1.698-2.782.604-3.369-1.34-3.369-1.34-.454-1.152-1.11-1.46-1.11-1.46-.906-.62.07-.608.07-.608 1.002.07 1.53 1.032 1.53 1.032.89 1.522 2.34 1.083 2.91.828.09-.646.35-1.083.636-1.332-2.22-.252-4.555-1.112-4.555-4.945 0-1.092.39-1.984 1.03-2.682-.104-.252-.448-1.268.098-2.64 0 0 .84-.268 2.75 1.024A9.57 9.57 0 0112 6.84c.85.004 1.71.112 2.51.33 1.91-1.292 2.75-1.024 2.75-1.024.546 1.372.202 2.388.098 2.64.64.698 1.03 1.59 1.03 2.682 0 3.84-2.34 4.69-4.57 4.936.36.31.68.92.68 1.856 0 1.34-.012 2.42-.012 2.75 0 .268.18.576.688.48A10.015 10.015 0 0022 12c0-5.52-4.48-10-10-10z"/>
+          </svg>
           {personalInfo.github}
         </a>
       </div>
     </div>
   </header>
 );
-
 // Experience Component
 const Experience: React.FC<{ experience: ExperienceItem[] }> = ({ experience }) => (
   <section className="mb-2 p-6 border-b-2 border-gray-200 dark:border-gray-700">
